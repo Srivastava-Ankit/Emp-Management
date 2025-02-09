@@ -18,7 +18,7 @@ To run the app on your local machine, follow these steps:
 
 Clone the repository:
 
-git clone https://github.com/your-username/employee_management_app.git
+git clone https://github.com/Srivastava-Ankit/Emp-Management.git
 Navigate to the project directory:
 
 cd employee_management_app
