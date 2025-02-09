@@ -25,6 +25,7 @@ cd employee_management_app
 Install dependencies:
 
 flutter pub get
+
 Run the app:
 
 flutter run
