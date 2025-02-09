@@ -5,12 +5,12 @@ import 'core/data/datasources/local_datasource.dart';
 import 'core/data/entities/employee_data.dart';
 import 'core/data/repo_impl/employee_repository_impl.dart';
 import 'core/data/repo/employee_repository.dart';
-import 'features/delete_employee/del_by_id.dart';
-import 'features/add_employee/insert_employee_record.dart';
+import 'features/add_edit_employee/add_employee/insert_employee_record.dart';
+import 'features/add_edit_employee/delete_employee/del_by_id.dart';
+import 'features/add_edit_employee/delete_employee/del_employee_record.dart';
+import 'features/add_edit_employee/update_employee/update_employees_list.dart';
 import 'features/home/widget/bloc/home_bloc.dart';
-import 'features/update_employee/update_employees_list.dart';
 import 'features/add_edit_employee/widget/bloc/add_edit_bloc.dart';
-import 'features/delete_employee/del_employee_record.dart';
 import 'features/get_employees_list.dart';
 
 Future<void> registerDependencyInjection() async {

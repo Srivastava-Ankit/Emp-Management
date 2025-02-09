@@ -2,9 +2,9 @@
 
 import 'package:dartz/dartz.dart';
 
-import '../../core/data/repo/employee_repository.dart';
-import '../../core/errors/failures.dart';
-import '../../core/usecases/usecase.dart';
+import '../../../core/data/repo/employee_repository.dart';
+import '../../../core/errors/failures.dart';
+import '../../../core/usecases/usecase.dart';
 
 /// This Usecase will be used to Get Profile image saved into Gallery
 
