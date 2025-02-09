@@ -1,7 +1,7 @@
 
 
 import 'package:dartz/dartz.dart';
-import '../../domain/repositories/employee_repository.dart';
+import '../repo/employee_repository.dart';
 import '../../errors/failures.dart';
 import '../datasources/local_datasource.dart';
 import '../entities/employee_data.dart';

@@ -1,6 +1,6 @@
 import 'package:dartz/dartz.dart';
 
-import '../../data/entities/employee_data.dart';
+import '../entities/employee_data.dart';
 import '../../errors/failures.dart';
 
 

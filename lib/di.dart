@@ -3,8 +3,8 @@ import 'package:kiwi/kiwi.dart';
 
 import 'core/data/datasources/local_datasource.dart';
 import 'core/data/entities/employee_data.dart';
-import 'core/data/repositories/employee_repository_impl.dart';
-import 'core/domain/repositories/employee_repository.dart';
+import 'core/data/repo_impl/employee_repository_impl.dart';
+import 'core/data/repo/employee_repository.dart';
 import 'features/delete_employee/del_by_id.dart';
 import 'features/add_employee/insert_employee_record.dart';
 import 'features/home/widget/bloc/home_bloc.dart';
