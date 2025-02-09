@@ -9,3 +9,22 @@ CRUD Operations: Implement add, edit, and delete functionality for employee reco
 Date Picker: Ensure the UI and functionality match the design exactly.
 
 Responsive UI: Make sure the app scales properly on different screen sizes.
+
+
+
+
+Getting Started
+To run the app on your local machine, follow these steps:
+
+Clone the repository:
+
+git clone https://github.com/your-username/employee_management_app.git
+Navigate to the project directory:
+
+cd employee_management_app
+Install dependencies:
+
+flutter pub get
+Run the app:
+
+flutter run
