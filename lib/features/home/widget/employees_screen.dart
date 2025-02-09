@@ -8,7 +8,7 @@ import 'package:kiwi/kiwi.dart';
 
 import '../../../core/constants/ImageConstants.dart';
 import '../../../core/theme/app_style.dart';
-import '../../../core/widgets/undo_delete_widget.dart';
+import '../../../core/ui/undo_delete_widget.dart';
 import '../../add_edit_employee/widget/add_edit_employee.dart';
 import 'bloc/home_bloc.dart';
 import 'bloc/home_event.dart';
