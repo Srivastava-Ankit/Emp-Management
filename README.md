@@ -51,8 +51,6 @@ flutter run
 ## Contributing
 If you'd like to contribute, please fork the repository and create a pull request.
 
-## License
-This project is licensed under the MIT License.
 
 ---
 Feel free to customize this README further based on your specific requirements!
