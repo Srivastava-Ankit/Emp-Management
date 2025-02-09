@@ -1,6 +1,6 @@
 
 import 'package:intl/intl.dart';
-import '../constants/constants.dart';
+import '../constants/ImageConstants.dart';
 
 extension DateTimeExtension on DateTime {
   DateTime next(int day) {
@@ -20,6 +20,6 @@ extension DateOnlyCompare on DateTime {
 
 extension FormatDateTime on DateTime {
   String formatDate() {
-    return DateFormat(Constants.dateFormat).format(this);
+    return DateFormat(ImageConstants.dateFormat).format(this);
   }
 }

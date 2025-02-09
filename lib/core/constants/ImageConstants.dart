@@ -1,5 +1,5 @@
 
-class Constants {
+class ImageConstants {
   static const String dateFormat = "dd MMM, yyyy";
 }
 
