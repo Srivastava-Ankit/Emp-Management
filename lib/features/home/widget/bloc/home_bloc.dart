@@ -3,9 +3,9 @@ import 'package:bloc/bloc.dart';
 import '../../../../core/data/entities/employee_data.dart';
 import '../../../../core/errors/failures.dart';
 import '../../../../core/usecases/usecase.dart';
-import '../../../add_edit_employee/domain/usecases/insert_employee_record.dart';
-import '../../domain/usecases/del_employee_record.dart';
-import '../../domain/usecases/get_employees_list.dart';
+import '../../../add_employee/insert_employee_record.dart';
+import '../../../delete_employee/del_employee_record.dart';
+import '../../../get_employees_list.dart';
 import 'home_event.dart';
 import 'home_state.dart';
 

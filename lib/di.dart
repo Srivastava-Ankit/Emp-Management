@@ -5,13 +5,13 @@ import 'core/data/datasources/local_datasource.dart';
 import 'core/data/entities/employee_data.dart';
 import 'core/data/repositories/employee_repository_impl.dart';
 import 'core/domain/repositories/employee_repository.dart';
-import 'features/add_edit_employee/domain/usecases/del_by_id.dart';
-import 'features/add_edit_employee/domain/usecases/insert_employee_record.dart';
-import 'features/add_edit_employee/domain/usecases/update_employees_list.dart';
-import 'features/add_edit_employee/presentation/bloc/add_edit_bloc.dart';
-import 'features/home/domain/usecases/del_employee_record.dart';
-import 'features/home/domain/usecases/get_employees_list.dart';
-import 'features/home/presentation/bloc/home_bloc.dart';
+import 'features/delete_employee/del_by_id.dart';
+import 'features/add_employee/insert_employee_record.dart';
+import 'features/home/widget/bloc/home_bloc.dart';
+import 'features/update_employee/update_employees_list.dart';
+import 'features/add_edit_employee/widget/bloc/add_edit_bloc.dart';
+import 'features/delete_employee/del_employee_record.dart';
+import 'features/get_employees_list.dart';
 
 Future<void> registerDependencyInjection() async {
   var container = KiwiContainer();

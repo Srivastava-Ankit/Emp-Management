@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import 'di.dart';
-import 'features/home/presentation/employees_screen.dart';
+import 'features/home/widget/employees_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

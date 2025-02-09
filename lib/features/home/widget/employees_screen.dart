@@ -1,6 +1,6 @@
 
-import 'package:emp_management/features/home/presentation/widgets/employee_list_page.dart';
-import 'package:emp_management/features/home/presentation/widgets/no_employee_page.dart';
+import 'package:emp_management/features/home/widget/widgets/employee_list_page.dart';
+import 'package:emp_management/features/home/widget/widgets/no_employee_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/svg.dart';
@@ -9,7 +9,7 @@ import 'package:kiwi/kiwi.dart';
 import '../../../core/constants/ImageConstants.dart';
 import '../../../core/theme/app_style.dart';
 import '../../../core/widgets/undo_delete_widget.dart';
-import '../../add_edit_employee/presentation/add_edit_employee.dart';
+import '../../add_edit_employee/widget/add_edit_employee.dart';
 import 'bloc/home_bloc.dart';
 import 'bloc/home_event.dart';
 import 'bloc/home_state.dart';

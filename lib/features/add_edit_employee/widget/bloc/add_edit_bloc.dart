@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 
 import '../../../../core/data/entities/employee_data.dart';
 import '../../../../core/errors/failures.dart';
-import '../../domain/usecases/del_by_id.dart';
-import '../../domain/usecases/insert_employee_record.dart';
-import '../../domain/usecases/update_employees_list.dart';
+import '../../../delete_employee/del_by_id.dart';
+import '../../../add_employee/insert_employee_record.dart';
+import '../../../update_employee/update_employees_list.dart';
 import 'add_edit_event.dart';
 import 'add_edit_state.dart';
 

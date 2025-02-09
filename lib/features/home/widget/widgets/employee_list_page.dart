@@ -8,7 +8,7 @@ import 'package:flutter_swipe_action_cell/core/controller.dart';
 
 import '../../../../core/data/entities/employee_data.dart';
 import '../../../../core/theme/app_style.dart';
-import '../../../add_edit_employee/presentation/add_edit_employee.dart';
+import '../../../add_edit_employee/widget/add_edit_employee.dart';
 import '../bloc/home_bloc.dart';
 import '../bloc/home_event.dart';
 import '../bloc/home_state.dart';
